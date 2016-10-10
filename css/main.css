@@ -55,13 +55,18 @@ h3 {
     margin: auto auto;
 }
 
-
-.projects li {
-    list-style-type: none;
+.projects {
     width: 700px;
     margin: 0 auto;
 }
 
+.projects ul {
+    list-style-type: none;
+}
+
 .projects h3 {
     text-transform: uppercase;
+    border-bottom: 2px solid #aeb44b;
+    margin-bottom: 10px;
+    padding: 10px 0 10px 0;
 }
